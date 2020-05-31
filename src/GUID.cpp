@@ -1,0 +1,44 @@
+// GUID.cpp: implementation of the CGUID class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "GUID.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CGUID::CGUID()
+{
+	//////////////////////////////////////////////////////////////////////////
+	GUID A;
+	CoCreateGuid(&A); 
+	OLECHAR wszBuff[39];
+	StringFromGUID2(A, wszBuff, 39);
+	char out[39]; 
+	wcstombs(out, wszBuff, 39);
+	m_str = out;
+	//////////////////////////////////////////////////////////////////////////
+}
+
+CGUID::~CGUID()
+{
+
+}
+
+/**
+ * operator():
+ *
+ * @return CString 
+ */
+CString CGUID::operator ()()
+{
+	return m_str;
+}

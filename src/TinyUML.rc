@@ -1,0 +1,1439 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\TinyUML.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_CLASS_EDITOR        ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_REMOVE              ICON    DISCARDABLE     "res\\delete.ico"
+IDI_ADD                 ICON    DISCARDABLE     "res\\add.ico"
+IDI_SET                 ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_OK                  ICON    DISCARDABLE     "res\\ico00006.ico"
+IDI_CANCEL              ICON    DISCARDABLE     "res\\ico00007.ico"
+IDI_OPEN                ICON    DISCARDABLE     "res\\ico00002.ico"
+IDI_EDIT_METHOD         ICON    DISCARDABLE     "res\\ico00003.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDR_DRAW_TOOLBAR        BITMAP  MOVEABLE PURE   "res\\toolsbar.bmp"
+IDR_VIEWBAR             BITMAP  MOVEABLE PURE   "res\\viewbar.bmp"
+IDB_CLASS               BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_PROJECT             BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_PUBLIC_METHOD       BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDB_PRIVATE_METHOD      BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+IDB_PROTECTED_METHOD    BITMAP  DISCARDABLE     "res\\bmp00004.bmp"
+IDB_PUBLIC_MEMBER       BITMAP  DISCARDABLE     "res\\bmp00005.bmp"
+IDB_PROTECTED_MEMBER    BITMAP  DISCARDABLE     "res\\bmp00006.bmp"
+IDB_PRIVATE_MEMBER      BITMAP  DISCARDABLE     "res\\bmp00007.bmp"
+IDR_CLASS_EDITOR        BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+IDB_CLASS_EDITOR        BITMAP  DISCARDABLE     "res\\bmp00008.bmp"
+IDB_THEME               BITMAP  DISCARDABLE     "res\\bmp00009.bmp"
+IDR_UML_TOOLBAR         BITMAP  MOVEABLE PURE   "res\\bmp00010.bmp"
+IDR_STYLE_TOOLBAR       BITMAP  DISCARDABLE     "res\\style_to.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_ARRANGE_BRING_TO_FRONT
+    BUTTON      ID_ARRANGE_SEND_TO_BACK
+    SEPARATOR
+    BUTTON      ID_EDIT_PROPERTIES
+    SEPARATOR
+    BUTTON      ID_FILE_READSOURCE
+    BUTTON      ID_FILE_SAVESOURCE
+    SEPARATOR
+    BUTTON      ID_EDIT_UNDO
+    BUTTON      ID_EDIT_REDO
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_DRAW_TOOLBAR TOOLBAR MOVEABLE PURE  25, 25
+BEGIN
+    BUTTON      ID_DRAW_TOOL_LINE
+    BUTTON      ID_DRAW_TOOL_RECT
+    BUTTON      ID_DRAW_TOOL_ELLIPSE
+    BUTTON      ID_DRAW_TOOL_ARC
+    BUTTON      ID_DRAW_TOOL_BEZIER
+    BUTTON      ID_TOOL_LABEL
+    SEPARATOR
+    BUTTON      ID_DRAW_TOOL_IMAGE
+END
+
+IDR_VIEWBAR TOOLBAR MOVEABLE PURE  16, 16
+BEGIN
+    BUTTON      ID_SCALE_COMBO
+    SEPARATOR
+    BUTTON      ID_VIEWMIN
+    BUTTON      ID_VIEWNORMAL
+    BUTTON      ID_VIEWMAX
+    SEPARATOR
+    BUTTON      ID_VIEWGRID
+    SEPARATOR
+    BUTTON      ID_VIEW_LOCK
+END
+
+IDR_CLASS_EDITOR TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_CLASS_EDIT_CUT
+    BUTTON      ID_CLASS_EDIT_COPY
+END
+
+IDR_UML_TOOLBAR TOOLBAR MOVEABLE PURE  25, 25
+BEGIN
+    BUTTON      ID_TOOL_SELECT
+    SEPARATOR
+    BUTTON      ID_TOOL_CLASS
+    BUTTON      ID_TOOL_INTERFACE
+    BUTTON      ID_TOOL_NOTE
+    BUTTON      ID_TOOL_PACKAGE
+    SEPARATOR
+    BUTTON      ID_TOOL_GENERALIZATION
+    BUTTON      ID_TOOL_REALIZE
+    SEPARATOR
+    BUTTON      ID_TOOL_ASSOCIATION1
+    BUTTON      ID_TOOL_ASSOCIATION2
+    BUTTON      ID_TOOL_ASSOCIATION3
+    SEPARATOR
+    BUTTON      ID_TOOL_DEPENDENCY
+END
+
+IDR_STYLE_TOOLBAR TOOLBAR DISCARDABLE  50, 15
+BEGIN
+    BUTTON      ID_DRAWING_LINE_COLOR
+    BUTTON      ID_DRAWING_LINE_STYLE
+    BUTTON      ID_DRAWING_LINE_WEIGHT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_CLASS_EDITOR MENU DISCARDABLE 
+BEGIN
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Cut",                         ID_CLASS_EDIT_CUT
+        MENUITEM "&Copy",                       ID_CLASS_EDIT_COPY
+        MENUITEM "Paste",                       ID_CLASS_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Find",                        ID_CLASS_EDIT_FIND
+        MENUITEM "Replace",                     ID_CLASS_EDIT_REPLACE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CLASS_EDITOR DIALOG DISCARDABLE  0, 0, 348, 242
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Class Editor"
+FONT 8, "Microsoft Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,240,221,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,291,221,50,14
+    EDITTEXT        IDC_EDIT1,7,7,334,211,ES_AUTOHSCROLL
+END
+
+IDD_PROP_CLASS_THEME DIALOG DISCARDABLE  0, 0, 217, 172
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Class theme"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "title color",IDC_BUTTON_CLASS_TITLE_COLOR,70,17,132,14
+    PUSHBUTTON      "back color",IDC_BUTTON_CLASS_BACK_COLOR,70,31,132,14
+    EDITTEXT        IDC_EDIT_ATTRIBUTE_FONT_SIZE,35,107,35,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_ATTRIBUTE_FONT_SIZE,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,70,107,11,
+                    14
+    COMBOBOX        IDC_COMBO_ATTRIBUTE_FONT,107,107,95,84,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_SORT | CBS_HASSTRINGS | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_METHOD_FONT_SIZE,35,144,35,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_METHOD_FONT_SIZE,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,70,144,11,
+                    14
+    COMBOBOX        IDC_COMBO_METHOD_FONT,107,144,95,84,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_SORT | CBS_HASSTRINGS | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Title Color : ",IDC_STATIC,14,20,56,8
+    LTEXT           "Back Color : ",IDC_STATIC,14,35,56,8
+    RTEXT           "Face : ",IDC_STATIC,70,110,26,8
+    GROUPBOX        "Attribute Font",IDC_STATIC,7,97,203,31
+    LTEXT           "Size : ",IDC_STATIC,14,111,20,8
+    RTEXT           "Face : ",IDC_STATIC,70,147,26,8
+    GROUPBOX        "Method Font",IDC_STATIC,7,134,203,31
+    LTEXT           "Size : ",IDC_STATIC,14,148,20,8
+    GROUPBOX        "Colors",IDC_STATIC,7,7,203,87
+    LTEXT           "Folder color : ",IDC_STATIC,14,49,56,8
+    PUSHBUTTON      "folder color",IDC_BUTTON_FOLDER_COLOR,70,46,132,14
+    LTEXT           "Attribute Color : ",IDC_STATIC,14,62,56,8
+    PUSHBUTTON      "attribute color",IDC_BUTTON_ATTRIBUTE_COLOR,70,60,132,
+                    14
+    LTEXT           "Method Color : ",IDC_STATIC,14,77,56,8
+    PUSHBUTTON      "method color",IDC_BUTTON_METHOD_COLOR,70,74,132,14
+END
+
+IDD_PROP_NOTE_THEME DIALOG DISCARDABLE  0, 0, 218, 87
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Note theme"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Text Color : ",IDC_STATIC,15,20,42,8
+    LTEXT           "Face : ",IDC_STATIC,15,62,42,8
+    PUSHBUTTON      "note color",IDC_BUTTON_NOTE_COLOR,57,17,146,14
+    COMBOBOX        IDC_COMBO_NOTE_FONT,57,59,146,63,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Colors",IDC_STATIC,7,7,204,31
+    GROUPBOX        "Font",IDC_STATIC,7,47,204,33
+END
+
+IDD_PROP_RELATION_THEME DIALOG DISCARDABLE  0, 0, 219, 43
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Relation theme"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Colors",-1,7,7,205,29
+    LTEXT           "Symbol color : ",-1,15,18,49,8
+    PUSHBUTTON      "symbol color",IDC_BUTTON_SYMBOL_COLOR,64,16,139,14
+END
+
+IDD_PROP_PACKAGE_THEME DIALOG DISCARDABLE  0, 0, 218, 81
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Package theme"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Fill color : ",IDC_STATIC,15,20,42,8
+    LTEXT           "Face : ",IDC_STATIC,15,56,42,8
+    PUSHBUTTON      "fill color",IDC_BUTTON_FILL_COLOR,57,17,146,14
+    COMBOBOX        IDC_COMBO_NAME_FONT,57,53,146,63,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Colors",IDC_STATIC,7,7,204,31
+    GROUPBOX        "Font",IDC_STATIC,7,41,204,33
+END
+
+IDD_PROP_GENERAL_THEME DIALOG DISCARDABLE  0, 0, 219, 110
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "General theme"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Name color : ",IDC_STATIC,15,20,49,8
+    PUSHBUTTON      "name color",IDC_BUTTON_NAME_COLOR,64,17,139,14
+    GROUPBOX        "Colors",IDC_STATIC,7,7,205,61
+    LTEXT           "Line color : ",IDC_STATIC,15,35,48,8
+    PUSHBUTTON      "line color",IDC_BUTTON_LINE_COLOR,64,32,139,14
+    LTEXT           "Shadow color : ",IDC_STATIC,16,50,48,8
+    PUSHBUTTON      "shadow color",IDC_BUTTON_SHADOW_COLOR,64,47,139,14
+    EDITTEXT        IDC_EDIT_NAME_FONT_SIZE,35,81,29,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_NAME_FONT_SIZE,"msctls_updown32",
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,64,82,11,
+                    14
+    COMBOBOX        IDC_COMBO_NAME_FONT,107,81,95,84,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_SORT | CBS_HASSTRINGS | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Face : ",IDC_STATIC,70,84,26,8
+    GROUPBOX        "Name Font",IDC_STATIC,7,71,205,31
+    LTEXT           "Size : ",IDC_STATIC,14,85,20,8
+END
+
+IDD_NO_TOOL DIALOG DISCARDABLE  0, 0, 64, 14
+STYLE WS_CHILD
+FONT 9, "Arial"
+BEGIN
+    CTEXT           "no tool",IDC_STATIC,4,3,56,8
+END
+
+IDD_EDIT_METHOD_CODE DIALOG DISCARDABLE  0, 0, 413, 315
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "Arial"
+BEGIN
+    CONTROL         "",IDC_FRAME,"Static",SS_BLACKFRAME,1,84,411,201
+    PUSHBUTTON      "OK",IDOK,312,299,50,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDCANCEL,362,299,50,14,NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NAME,0,60,413,12,ES_READONLY | NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BEGIN,0,72,413,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_END,0,285,413,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_COMMENTS,0,0,413,60,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL | 
+                    NOT WS_TABSTOP
+END
+
+IDD_WRITE_SOURCES DIALOG DISCARDABLE  0, 0, 247, 172
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Write soruce files"
+FONT 8, "Arial"
+BEGIN
+    EDITTEXT        IDC_EDIT_REPOSITORY,47,7,171,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    DEFPUSHBUTTON   "OK",IDOK,139,151,50,16
+    PUSHBUTTON      "Cancel",IDCANCEL,190,151,50,16
+    LTEXT           "Repository : ",IDC_STATIC,7,9,40,8
+    CONTROL         "List1",IDC_LIST_FILES,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,7,25,233,124
+    PUSHBUTTON      "...",IDC_BUTTON_SELECT_REPOSITORY,219,7,21,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CLASS_EDITOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 341
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 235
+    END
+
+    IDD_PROP_CLASS_THEME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        VERTGUIDE, 14
+        VERTGUIDE, 52
+        VERTGUIDE, 70
+        VERTGUIDE, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 165
+    END
+
+    IDD_PROP_NOTE_THEME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        VERTGUIDE, 15
+        VERTGUIDE, 57
+        VERTGUIDE, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_PROP_RELATION_THEME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        VERTGUIDE, 15
+        VERTGUIDE, 64
+        VERTGUIDE, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 36
+    END
+
+    IDD_PROP_PACKAGE_THEME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        VERTGUIDE, 15
+        VERTGUIDE, 57
+        VERTGUIDE, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_PROP_GENERAL_THEME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        VERTGUIDE, 15
+        VERTGUIDE, 64
+        VERTGUIDE, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_NO_TOOL, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 60
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 11
+    END
+
+    IDD_WRITE_SOURCES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 240
+        VERTGUIDE, 47
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+        HORZGUIDE, 18
+        HORZGUIDE, 151
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_MOUSE_CURSOR        CURSOR  DISCARDABLE     "res\\mouse.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TOOL_CLASS           "new class\nnew class"
+    ID_TOOL_GENERALIZATION  "Generalization\nGeneralization"
+    ID_TOOL_ASSOCIATION3    "association3\nassociation3"
+    ID_TOOL_DEPENDENCY      "Dependency\nDependency"
+    ID_VIEW_LOCK            "Toogle lock (prevent moving objects)\nToogle lock"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_PROPERTIES      "Edit current object properties\nProperties"
+    ID_FILE_SAVESOURCE      "Write the source files (*.cpp, *.h)\nWrite Source"
+    ID_FILE_READSOURCE      "Read the source files (*.cpp, *.h)\nRead Source"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TOOL_IMAGE           "Insert Image"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TOOL_LABEL           "\nDraw label"
+    ID_DRAW_TOOL_LINE       "\nDraw line"
+    ID_DRAW_TOOL_RECT       "\nDraw rect"
+    ID_DRAW_TOOL_ELLIPSE    "\nDraw ellipse"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TOOL_ASSOCIATION1    "association\nassociation"
+    ID_TOOL_ASSOCIATION2    "association2\nassociation2"
+    ID_TOOL_REALIZE         "\nRealize"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_DRAW_TOOL_ARC        "\nDraw Arc"
+    ID_DRAW_TOOL_BEZIER     "\nDraw Bezier"
+    ID_DRAWING_LINE_STYLE   "\nLine style"
+    ID_DRAWING_LINE_WEIGHT  "\nLine weight"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_DRAWING_LINE_COLOR   "\nLine color"
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Romanian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ROM)
+#ifdef _WIN32
+LANGUAGE LANG_ROMANIAN, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_OBJECTBAR           BITMAP  MOVEABLE PURE   "res\\objectba.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_OBJECTBAR TOOLBAR MOVEABLE PURE  16, 16
+BEGIN
+    BUTTON      ID_BUTTON32782
+    BUTTON      ID_BUTTON32783
+    SEPARATOR
+    BUTTON      ID_BUTTON32786
+    BUTTON      ID_BUTTON32787
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROP_CLASS DIALOG DISCARDABLE  0, 0, 234, 213
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Class properties"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_NAME,52,7,175,12,ES_AUTOHSCROLL
+    LTEXT           "Name:",IDC_STATIC,7,7,40,15,SS_CENTERIMAGE
+    COMBOBOX        IDC_STEREOTYPE,52,22,136,55,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Stereotype:",IDC_STATIC,7,22,40,15,SS_CENTERIMAGE
+    CONTROL         "Show",IDC_SHOW_STEREOTYPE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,193,25,34,10
+    CONTROL         "Abstract class",IDC_ABSTRACT_CLASS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,70,60,8
+    CONTROL         "Show compartiments name",IDC_SHOW_COMPARTIMENTS_NAME,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,82,101,8
+    GROUPBOX        "Properties",IDC_STATIC,7,41,220,27,WS_GROUP
+    CONTROL         "Dll E&xport",IDC_DLLEXPORT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,12,53,46,8
+    EDITTEXT        IDC_EDIT_NOTE,7,110,220,96,ES_MULTILINE | ES_AUTOHSCROLL
+    LTEXT           "Note :",IDC_STATIC,7,98,22,8
+    CONTROL         "Singleton",IDC_SINGLETON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,61,53,46,8
+END
+
+IDD_PROP_ATTRIBUTES DIALOGEX 0, 0, 230, 227
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Members"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_ATTRIBUTE_TYPE,41,25,179,72,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_ATTRIBUTE_NAME,41,40,179,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_MEMBER_ACCESS,41,53,179,72,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Add",IDC_ADD_ATTRIBUTE,146,106,36,15
+    PUSHBUTTON      "Remove",IDC_REMOVE_ATTRIBUTE,180,205,40,15
+    CONTROL         "Show members compartiment",IDC_SHOW_ATTRIBUTES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,7,109,10
+    GROUPBOX        "",IDC_STATIC,7,15,218,111
+    LTEXT           "Name:",IDC_STATIC,10,40,22,8
+    LTEXT           "Type:",IDC_STATIC,10,26,19,8
+    LTEXT           "Access :",IDC_STATIC,10,55,30,8
+    CONTROL         "List1",IDC_ATTRIBUTES,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,130,218,71
+    PUSHBUTTON      "Set",IDC_SET_ATTRIBUTE,183,106,36,15
+    GROUPBOX        "Properties",IDC_STATIC,10,68,210,35
+    CONTROL         "Static",IDC_CHECK_STATIC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,17,83,35,10
+END
+
+IDD_PROP_METHODS DIALOGEX 0, 0, 239, 237
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Methods"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_METHOD_TYPE,47,29,181,72,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_METHOD_NAME,47,43,181,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_METHOD_ACCESS,47,58,181,72,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Add",IDC_ADD_METHOD,153,115,35,15
+    PUSHBUTTON      "Remove",IDC_REMOVE_METHOD,188,215,40,15
+    CONTROL         "Show methods compartiment",IDC_SHOW_METHODS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,7,107,10
+    GROUPBOX        "",IDC_STATIC,7,16,225,119
+    LTEXT           "Name : ",IDC_STATIC,10,45,36,8
+    LTEXT           "Access : ",IDC_STATIC,10,60,36,8
+    GROUPBOX        "Properties",IDC_STATIC,10,74,218,39,WS_GROUP
+    CONTROL         "&Virtual",IDC_VIRTUAL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,84,35,10
+    CONTROL         "P&ure",IDC_PURE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    62,84,28,10
+    CONTROL         "&Inline",IDC_INLINE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,97,29,10
+    CONTROL         "Con&st",IDC_CONSTMETHOD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,62,97,33,10
+    CONTROL         "Dll E&xport",IDC_DLLEXPORT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,126,97,46,10
+    CONTROL         "&Static",IDC_STATIC_METHOD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,126,84,37,10
+    CONTROL         "I&mplement",IDC_IMPLEMENT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,170,84,48,10
+    LTEXT           "Type : ",IDC_STATIC,10,31,36,8
+    PUSHBUTTON      "Set",IDC_SET_METHOD,189,115,35,15
+    CONTROL         "List1",IDC_LIST_METHOD,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,137,225,74
+    PUSHBUTTON      "Edit",IDC_EDIT_METHOD,155,215,32,15
+END
+
+IDD_PROP_NOTE DIALOG DISCARDABLE  0, 0, 211, 155
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Note text"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_TEXT,4,7,200,70,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    LTEXT           "Fill Color : ",IDC_STATIC,12,95,42,8
+    LTEXT           "Face : ",IDC_STATIC,12,129,42,8
+    PUSHBUTTON      "note color",IDC_BUTTON_NOTE_COLOR,54,92,142,14
+    COMBOBOX        IDC_COMBO_NOTE_FONT,54,126,142,63,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Colors",IDC_STATIC,7,82,197,31
+    GROUPBOX        "Font",IDC_STATIC,7,115,197,33
+END
+
+IDD_PROP_PACKAGE DIALOG DISCARDABLE  0, 0, 186, 42
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Package properties"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_NAME,66,7,113,14,ES_AUTOHSCROLL
+    LTEXT           "Package name:",IDC_STATIC,7,7,53,12
+END
+
+IDD_PROP_GENERALIZATION DIALOG DISCARDABLE  0, 0, 148, 38
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Generalization properties"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Realize",IDC_REALIZE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,7,92,10
+END
+
+IDD_PROP_DEPENDENCY DIALOG DISCARDABLE  0, 0, 131, 79
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dependency properties"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Show arrow",IDC_SHOW_ARROW,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,7,113,10
+    EDITTEXT        IDC_NAME,13,41,105,12,ES_AUTOHSCROLL
+    CONTROL         "Show",IDC_SHOW_NAME,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,56,34,10
+    GROUPBOX        "Relation name",IDC_STATIC,7,26,115,45
+END
+
+IDD_PROP_ASSOCIATION DIALOG DISCARDABLE  0, 0, 167, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Association properties"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Multiplicity",IDC_STATIC,7,38,153,57
+    COMBOBOX        IDC_SOURCE_MULTIPLICITY,60,55,45,61,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Source:",IDC_STATIC,15,55,29,13
+    COMBOBOX        IDC_DEST_MULTIPLICITY,60,70,45,61,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Destination:",IDC_STATIC,15,70,40,13
+    CONTROL         "Show",IDC_SHOW_SRC_MULTIPLICITY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,115,55,34,10
+    CONTROL         "Show",IDC_SHOW_DEST_MULTIPLICITY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,115,70,34,10
+    CONTROL         "Aggregation",IDC_AGGREGATION,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,7,54,10
+    CONTROL         "Navigable",IDC_NAVIGABLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,22,48,10
+    EDITTEXT        IDC_NAME,13,116,105,12,ES_AUTOHSCROLL
+    CONTROL         "Show",IDC_SHOW_NAME,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,130,34,10
+    GROUPBOX        "Relation name",IDC_STATIC,7,100,115,45
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PROP_CLASS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 227
+        VERTGUIDE, 188
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 206
+    END
+
+    IDD_PROP_ATTRIBUTES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        VERTGUIDE, 10
+        VERTGUIDE, 41
+        VERTGUIDE, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 220
+    END
+
+    IDD_PROP_METHODS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        VERTGUIDE, 10
+        VERTGUIDE, 47
+        VERTGUIDE, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 230
+        HORZGUIDE, 107
+    END
+
+    IDD_PROP_NOTE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 204
+        VERTGUIDE, 54
+        VERTGUIDE, 196
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 148
+    END
+
+    IDD_PROP_PACKAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 35
+    END
+
+    IDD_PROP_GENERALIZATION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 141
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 31
+    END
+
+    IDD_PROP_DEPENDENCY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 124
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+
+    IDD_PROP_ASSOCIATION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PROP_CLASS DLGINIT
+BEGIN
+    IDC_STEREOTYPE, 0x403, 10, 0
+0x6e69, 0x6574, 0x6672, 0x6361, 0x0065, 
+    IDC_STEREOTYPE, 0x403, 6, 0
+0x6c63, 0x7361, 0x0073, 
+    IDC_STEREOTYPE, 0x403, 5, 0
+0x7974, 0x6570, "\000" 
+    IDC_STEREOTYPE, 0x403, 15, 0
+0x6d69, 0x6c70, 0x6d65, 0x6e65, 0x6174, 0x6974, 0x6e6f, "\000" 
+    0
+END
+
+IDD_PROP_ATTRIBUTES DLGINIT
+BEGIN
+    IDC_ATTRIBUTE_TYPE, 0x403, 5, 0
+0x6863, 0x7261, "\000" 
+    IDC_ATTRIBUTE_TYPE, 0x403, 4, 0
+0x6e69, 0x0074, 
+    IDC_ATTRIBUTE_TYPE, 0x403, 5, 0
+0x6f6c, 0x676e, "\000" 
+    IDC_ATTRIBUTE_TYPE, 0x403, 6, 0
+0x6c66, 0x616f, 0x0074, 
+    IDC_ATTRIBUTE_TYPE, 0x403, 7, 0
+0x6f64, 0x6275, 0x656c, "\000" 
+    IDC_ATTRIBUTE_TYPE, 0x403, 8, 0
+0x5343, 0x7274, 0x6e69, 0x0067, 
+    IDC_MEMBER_ACCESS, 0x403, 7, 0
+0x7570, 0x6c62, 0x6369, "\000" 
+    IDC_MEMBER_ACCESS, 0x403, 10, 0
+0x7270, 0x746f, 0x6365, 0x6574, 0x0064, 
+    IDC_MEMBER_ACCESS, 0x403, 8, 0
+0x7270, 0x7669, 0x7461, 0x0065, 
+    0
+END
+
+IDD_PROP_METHODS DLGINIT
+BEGIN
+    IDC_METHOD_TYPE, 0x403, 5, 0
+0x6863, 0x7261, "\000" 
+    IDC_METHOD_TYPE, 0x403, 4, 0
+0x6e69, 0x0074, 
+    IDC_METHOD_TYPE, 0x403, 5, 0
+0x6f6c, 0x676e, "\000" 
+    IDC_METHOD_TYPE, 0x403, 6, 0
+0x6c66, 0x616f, 0x0074, 
+    IDC_METHOD_TYPE, 0x403, 7, 0
+0x6f64, 0x6275, 0x656c, "\000" 
+    IDC_METHOD_TYPE, 0x403, 8, 0
+0x5343, 0x7274, 0x6e69, 0x0067, 
+    IDC_METHOD_ACCESS, 0x403, 7, 0
+0x7570, 0x6c62, 0x6369, "\000" 
+    IDC_METHOD_ACCESS, 0x403, 10, 0
+0x7270, 0x746f, 0x6365, 0x6574, 0x0064, 
+    IDC_METHOD_ACCESS, 0x403, 8, 0
+0x7270, 0x7669, 0x7461, 0x0065, 
+    0
+END
+
+IDD_PROP_ASSOCIATION DLGINIT
+BEGIN
+    IDC_SOURCE_MULTIPLICITY, 0x403, 2, 0
+0x002a, 
+    IDC_SOURCE_MULTIPLICITY, 0x403, 5, 0
+0x2030, 0x2e2e, "\000" 
+    IDC_SOURCE_MULTIPLICITY, 0x403, 2, 0
+0x0031, 
+    IDC_SOURCE_MULTIPLICITY, 0x403, 5, 0
+0x2031, 0x2e2e, "\000" 
+    IDC_DEST_MULTIPLICITY, 0x403, 2, 0
+0x002a, 
+    IDC_DEST_MULTIPLICITY, 0x403, 5, 0
+0x2030, 0x2e2e, "\000" 
+    IDC_DEST_MULTIPLICITY, 0x403, 2, 0
+0x0031, 
+    IDC_DEST_MULTIPLICITY, 0x403, 5, 0
+0x2031, 0x2e2e, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_PROPERTIES      "Edit current object properties\nProperties"
+END
+
+#endif    // Romanian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\TinyUML.ico"
+IDR_TINYUMTYPE          ICON    DISCARDABLE     "res\\TinyUMLDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_WORKSPACE           BITMAP  DISCARDABLE     "res\\workspace.bmp"
+IDB_TTF_BMP             BITMAP  DISCARDABLE     "res\\ttf_glyph.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        POPUP "&Toolbars"
+        BEGIN
+            MENUITEM "",                            ID_VIEW_TOOLBARS
+        END
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "Tools Toolbar",               ID_VIEW_TOOLSBAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About TinyUML...",           ID_APP_ABOUT
+    END
+END
+
+IDR_TINYUMTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "P&urge",                      ID_FILE_PURGE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Read Source",                 ID_FILE_READSOURCE
+        MENUITEM "Save Source",                 ID_FILE_SAVESOURCE
+        MENUITEM SEPARATOR
+        MENUITEM "Load Theme",                  ID_LOAD_THEME
+        MENUITEM "Save Theme",                  ID_SAVE_THEME
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Properties",                  ID_EDIT_PROPERTIES
+    END
+    POPUP "&Insert"
+    BEGIN
+        MENUITEM "Insert Image",                ID_INSERT_IMAGE
+    END
+    POPUP "&Arrange"
+    BEGIN
+        MENUITEM "Bring To Front",              ID_ARRANGE_BRING_TO_FRONT
+        MENUITEM "Send To Back",                ID_ARRANGE_SEND_TO_BACK
+    END
+    POPUP "Options"
+    BEGIN
+        MENUITEM "Settings",                    ID_UML_SETTING
+        MENUITEM "Theme...",                    ID_EDIT_THEME
+    END
+    POPUP "&View"
+    BEGIN
+        POPUP "&Toolbars"
+        BEGIN
+            MENUITEM "",                            ID_VIEW_TOOLBARS
+        END
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "Tools Toolbar",               ID_VIEW_TOOLSBAR
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About TinyUML...",           ID_APP_ABOUT
+    END
+END
+
+IDR_CONTEXT_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "Cu&t",                        ID_EDIT_CUT
+        MENUITEM "&Copy",                       ID_EDIT_COPY
+        MENUITEM "&Paste",                      ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Bring To Front",              ID_ARRANGE_BRING_TO_FRONT
+        MENUITEM "Send to Back",                ID_ARRANGE_SEND_TO_BACK
+        MENUITEM SEPARATOR
+        MENUITEM "Properties",                  ID_EDIT_PROPERTIES
+    END
+END
+
+IDR_POPUP_TOOLBAR MENU DISCARDABLE 
+BEGIN
+    POPUP "DUMMY"
+    BEGIN
+        MENUITEM "Standard Toolbar",            ID_VIEW_TOOLBAR
+        MENUITEM "&Workspace",                  ID_VIEW_WORKSPACE
+        MENUITEM "&Output",                     ID_VIEW_OUTPUT
+        MENUITEM SEPARATOR
+        MENUITEM "&Customize...",               ID_VIEW_CUSTOMIZE
+    END
+END
+
+IDR_FILEVIEW_CONTEXT_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "_FILEVIEW_"
+    BEGIN
+        MENUITEM "Add Files to Doc",            ID_FILE_ADD_TO_DOCUMENT
+        MENUITEM SEPARATOR
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 105
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About TinyUML"
+FONT 8, "Microsoft Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,20,20
+    LTEXT           "TinyUML Version ""1, 1, 0, 18",IDC_STATIC,40,7,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2004 ~ 2005.10.5",IDC_STATIC,40,20,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+    PUSHBUTTON      "http://www.zbaekhk.com",IDC_COMPANY_URL,41,32,119,14
+    LTEXT           "TinyUML은 umlsculptor를 기반으로해서 만들어 졌습니다.",
+                    IDC_STATIC,16,66,206,8
+    GROUPBOX        "Info",IDC_STATIC,7,50,221,45
+    PUSHBUTTON      "http://umlsculptor.sourceforge.net",IDC_UMLSCULPTOR_URL,
+                    18,75,117,12
+END
+
+IDD_PROP_LABEL DIALOG DISCARDABLE  0, 0, 214, 97
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Label Properties"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_LABEL,7,7,200,12,ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "Text Color : ",IDC_STATIC,15,38,35,8
+    LTEXT           "Face : ",IDC_STATIC,15,74,29,8
+    PUSHBUTTON      "note color",IDC_BUTTON_NOTE_COLOR,53,35,142,14
+    COMBOBOX        IDC_COMBO_NOTE_FONT,53,70,142,63,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Colors",IDC_STATIC,7,24,197,31
+    GROUPBOX        "Font",IDC_STATIC,7,58,197,33
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+
+    IDD_PROP_LABEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        VERTGUIDE, 15
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 90
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,18
+ PRODUCTVERSION 1,1,0,18
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "TinyUML MFC Application\0"
+            VALUE "FileVersion", "1, 1, 0, 18\0"
+            VALUE "InternalName", "TinyUML\0"
+            VALUE "LegalCopyright", "Copyright (C) 2004\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "TinyUML.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "TinyUML Application\0"
+            VALUE "ProductVersion", "1, 1, 0, 18\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "TinyUML\n\nUML\nUML Files (*.uml)\n.uml\nUMLTool.Document\nUML Document"
+    IDR_TINYUMTYPE          "TinyUML\n\nUML\nUML Files (*.uml)\n.uml\nUMLTool.Document\nUML Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "TinyUML"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+    ID_INDICATOR_DATE       "Date"
+    ID_INDICATOR_TIME       "Time"
+    ID_INDICATOR_MOUSEPOS   "Mouse Position"
+    ID_INDICATOR_SNAP       "Snap"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_WORKSPACE       "Show or hide the workspace bar\nToggle Workspace"
+    ID_VIEW_OUTPUT          "Show or hide the output bar\nToggle Output"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+    IDS_50PERCENT           "50%"
+    IDS_100PERCENT          "100%"
+    IDS_150PERCENT          "150%"
+    IDS_200PERCENT          "200%"
+    IDS_500PERCENT          "500%"
+    IDS_DEFAULT_FONT        "MS Sans Serif"
+    IDS_25PERCENT           "25%"
+    IDS_BAD_PERCENT         "%d%% is out of range."
+    ID_NEW_CLASS            "New Class\\New Class"
+    ID_EDIT_THEME           "Edit Theme\nEdit Theme"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_CUSTOMIZE       "Customize toolbars ane menus.\nCustomize"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MAIN_TOOLBAR        "Standard"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_UNDO                 "Undo"
+    ID_REDO                 "Redo"
+    ID_EDIT_PROPERTIES      "Edit current object properties\nProperties"
+    ID_FILE_SAVESOURCE      "Write the source files (*.cpp, *.h)\nWrite Source"
+    ID_FILE_READSOURCE      "Read the source files (*.cpp, *.h)\nRead Source"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FILE_OUTDATED_WARNING 
+                            "Warning! File is from previous version.\n Saving will update to new version."
+    IDS_FILE_TOO_NEW_ERROR  "The file version is newer than the program can understand.\nUse a later version of the program."
+    IDS_SOURCE_GENERALIZATION_ERROR 
+                            "The source of a generalization relationship must be a class."
+    IDS_DESTINATION_GENERALIZATION_ERROR 
+                            "The destinatination of a generalization relationship must be a class."
+    IDS_SOURCE_AGGREGATION_ERROR 
+                            "The source of an aggregation relationship must be a class."
+    IDS_DEST_SRC_GENERALIZATION_ERROR "The destination and source is equal."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_GROUP           "\nGroup"
+    ID_EDIT_UNGROUP         "\nUngroup"
+    ID_FILE_ADD_TO_DOCUMENT "\nAdd Files to Document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FILE_VIEW_STRING1   "Source Files"
+    IDS_FILE_VIEW_STRING2   "Header Files"
+    IDS_FILE_VIEW_STRING3   "Resource Files"
+    IDS_FILE_VIEW_STRING4   "Other Files"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\TinyUML.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
